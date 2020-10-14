@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09DCA29604B201989531A0E4 /* libPods-FastImageIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88CC5367C5BC98347A47E4F0 /* libPods-FastImageIOS.a */; };
+		2B332576253615760049E71E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B332575253615760049E71E /* AppDelegate.m */; };
+		2B33257C253615760049E71E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B33257B253615760049E71E /* ViewController.m */; };
+		2B33257F253615760049E71E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B33257D253615760049E71E /* Main.storyboard */; };
+		2B332581253615770049E71E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B332580253615770049E71E /* Assets.xcassets */; };
+		2B332584253615770049E71E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B332582253615770049E71E /* LaunchScreen.storyboard */; };
+		2B332587253615770049E71E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B332586253615770049E71E /* main.m */; };
+		2B332591253615770049E71E /* FastImageIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B332590253615770049E71E /* FastImageIOSTests.m */; };
+		2B33259C253615770049E71E /* FastImageIOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B33259B253615770049E71E /* FastImageIOSUITests.m */; };
+		2ECE1932CE9BC7A70583ECA1 /* libPods-FastImageIOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FC57F868EECAFBD05539DA /* libPods-FastImageIOSTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B33258D253615770049E71E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B332569253615760049E71E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B332570253615760049E71E;
+			remoteInfo = FastImageIOS;
+		};
+		2B332598253615770049E71E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B332569253615760049E71E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B332570253615760049E71E;
+			remoteInfo = FastImageIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B332571253615760049E71E /* FastImageIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastImageIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B332574253615760049E71E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B332575253615760049E71E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B33257A253615760049E71E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2B33257B253615760049E71E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2B33257E253615760049E71E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B332580253615770049E71E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B332583253615770049E71E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B332585253615770049E71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B332586253615770049E71E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B33258C253615770049E71E /* FastImageIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastImageIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B332590253615770049E71E /* FastImageIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastImageIOSTests.m; sourceTree = "<group>"; };
+		2B332592253615770049E71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B332597253615770049E71E /* FastImageIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastImageIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B33259B253615770049E71E /* FastImageIOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastImageIOSUITests.m; sourceTree = "<group>"; };
+		2B33259D253615770049E71E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38417481074A93C6CD84E763 /* Pods-FastImageIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastImageIOSTests.debug.xcconfig"; path = "Target Support Files/Pods-FastImageIOSTests/Pods-FastImageIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		41FC57F868EECAFBD05539DA /* libPods-FastImageIOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FastImageIOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BA29D0835AB7A2827D8E943 /* Pods-FastImageIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastImageIOS.debug.xcconfig"; path = "Target Support Files/Pods-FastImageIOS/Pods-FastImageIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		85368D0E5828E901BEB3207E /* Pods-FastImageIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastImageIOSTests.release.xcconfig"; path = "Target Support Files/Pods-FastImageIOSTests/Pods-FastImageIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		88CC5367C5BC98347A47E4F0 /* libPods-FastImageIOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FastImageIOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE4DAD5812A00B2502CFA9AA /* Pods-FastImageIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastImageIOS.release.xcconfig"; path = "Target Support Files/Pods-FastImageIOS/Pods-FastImageIOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B33256E253615760049E71E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DCA29604B201989531A0E4 /* libPods-FastImageIOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B332589253615770049E71E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECE1932CE9BC7A70583ECA1 /* libPods-FastImageIOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B332594253615770049E71E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08981D0E91F547CE5B551DA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BA29D0835AB7A2827D8E943 /* Pods-FastImageIOS.debug.xcconfig */,
+				DE4DAD5812A00B2502CFA9AA /* Pods-FastImageIOS.release.xcconfig */,
+				38417481074A93C6CD84E763 /* Pods-FastImageIOSTests.debug.xcconfig */,
+				85368D0E5828E901BEB3207E /* Pods-FastImageIOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2B332568253615760049E71E = {
+			isa = PBXGroup;
+			children = (
+				2B332573253615760049E71E /* FastImageIOS */,
+				2B33258F253615770049E71E /* FastImageIOSTests */,
+				2B33259A253615770049E71E /* FastImageIOSUITests */,
+				2B332572253615760049E71E /* Products */,
+				08981D0E91F547CE5B551DA3 /* Pods */,
+				62D5B3A3DD921E45E5A42AE9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B332572253615760049E71E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B332571253615760049E71E /* FastImageIOS.app */,
+				2B33258C253615770049E71E /* FastImageIOSTests.xctest */,
+				2B332597253615770049E71E /* FastImageIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B332573253615760049E71E /* FastImageIOS */ = {
+			isa = PBXGroup;
+			children = (
+				2B332574253615760049E71E /* AppDelegate.h */,
+				2B332575253615760049E71E /* AppDelegate.m */,
+				2B33257A253615760049E71E /* ViewController.h */,
+				2B33257B253615760049E71E /* ViewController.m */,
+				2B33257D253615760049E71E /* Main.storyboard */,
+				2B332580253615770049E71E /* Assets.xcassets */,
+				2B332582253615770049E71E /* LaunchScreen.storyboard */,
+				2B332585253615770049E71E /* Info.plist */,
+				2B332586253615770049E71E /* main.m */,
+			);
+			path = FastImageIOS;
+			sourceTree = "<group>";
+		};
+		2B33258F253615770049E71E /* FastImageIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B332590253615770049E71E /* FastImageIOSTests.m */,
+				2B332592253615770049E71E /* Info.plist */,
+			);
+			path = FastImageIOSTests;
+			sourceTree = "<group>";
+		};
+		2B33259A253615770049E71E /* FastImageIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B33259B253615770049E71E /* FastImageIOSUITests.m */,
+				2B33259D253615770049E71E /* Info.plist */,
+			);
+			path = FastImageIOSUITests;
+			sourceTree = "<group>";
+		};
+		62D5B3A3DD921E45E5A42AE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88CC5367C5BC98347A47E4F0 /* libPods-FastImageIOS.a */,
+				41FC57F868EECAFBD05539DA /* libPods-FastImageIOSTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B332570253615760049E71E /* FastImageIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B3325A0253615770049E71E /* Build configuration list for PBXNativeTarget "FastImageIOS" */;
+			buildPhases = (
+				A8D17DD73C98D22116CBDA7B /* [CP] Check Pods Manifest.lock */,
+				2B33256D253615760049E71E /* Sources */,
+				2B33256E253615760049E71E /* Frameworks */,
+				2B33256F253615760049E71E /* Resources */,
+				2B8B42F2820EF2AEE5BDCF33 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastImageIOS;
+			productName = FastImageIOS;
+			productReference = 2B332571253615760049E71E /* FastImageIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B33258B253615770049E71E /* FastImageIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B3325A3253615770049E71E /* Build configuration list for PBXNativeTarget "FastImageIOSTests" */;
+			buildPhases = (
+				333791DA6C57A267AA8FD003 /* [CP] Check Pods Manifest.lock */,
+				2B332588253615770049E71E /* Sources */,
+				2B332589253615770049E71E /* Frameworks */,
+				2B33258A253615770049E71E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B33258E253615770049E71E /* PBXTargetDependency */,
+			);
+			name = FastImageIOSTests;
+			productName = FastImageIOSTests;
+			productReference = 2B33258C253615770049E71E /* FastImageIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B332596253615770049E71E /* FastImageIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B3325A6253615770049E71E /* Build configuration list for PBXNativeTarget "FastImageIOSUITests" */;
+			buildPhases = (
+				2B332593253615770049E71E /* Sources */,
+				2B332594253615770049E71E /* Frameworks */,
+				2B332595253615770049E71E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B332599253615770049E71E /* PBXTargetDependency */,
+			);
+			name = FastImageIOSUITests;
+			productName = FastImageIOSUITests;
+			productReference = 2B332597253615770049E71E /* FastImageIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B332569253615760049E71E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					2B332570253615760049E71E = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					2B33258B253615770049E71E = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 2B332570253615760049E71E;
+					};
+					2B332596253615770049E71E = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 2B332570253615760049E71E;
+					};
+				};
+			};
+			buildConfigurationList = 2B33256C253615760049E71E /* Build configuration list for PBXProject "FastImageIOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B332568253615760049E71E;
+			productRefGroup = 2B332572253615760049E71E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B332570253615760049E71E /* FastImageIOS */,
+				2B33258B253615770049E71E /* FastImageIOSTests */,
+				2B332596253615770049E71E /* FastImageIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B33256F253615760049E71E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B332584253615770049E71E /* LaunchScreen.storyboard in Resources */,
+				2B332581253615770049E71E /* Assets.xcassets in Resources */,
+				2B33257F253615760049E71E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B33258A253615770049E71E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B332595253615770049E71E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B8B42F2820EF2AEE5BDCF33 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FastImageIOS/Pods-FastImageIOS-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FastImageIOS/Pods-FastImageIOS-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FastImageIOS/Pods-FastImageIOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		333791DA6C57A267AA8FD003 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FastImageIOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8D17DD73C98D22116CBDA7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FastImageIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B33256D253615760049E71E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B33257C253615760049E71E /* ViewController.m in Sources */,
+				2B332576253615760049E71E /* AppDelegate.m in Sources */,
+				2B332587253615770049E71E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B332588253615770049E71E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B332591253615770049E71E /* FastImageIOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B332593253615770049E71E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B33259C253615770049E71E /* FastImageIOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B33258E253615770049E71E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B332570253615760049E71E /* FastImageIOS */;
+			targetProxy = 2B33258D253615770049E71E /* PBXContainerItemProxy */;
+		};
+		2B332599253615770049E71E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B332570253615760049E71E /* FastImageIOS */;
+			targetProxy = 2B332598253615770049E71E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B33257D253615760049E71E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B33257E253615760049E71E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B332582253615770049E71E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B332583253615770049E71E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B33259E253615770049E71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B33259F253615770049E71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B3325A1253615770049E71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BA29D0835AB7A2827D8E943 /* Pods-FastImageIOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RRLD9CW7ZZ;
+				INFOPLIST_FILE = FastImageIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytedance.FastImageIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B3325A2253615770049E71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE4DAD5812A00B2502CFA9AA /* Pods-FastImageIOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RRLD9CW7ZZ;
+				INFOPLIST_FILE = FastImageIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytedance.FastImageIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B3325A4253615770049E71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38417481074A93C6CD84E763 /* Pods-FastImageIOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RRLD9CW7ZZ;
+				INFOPLIST_FILE = FastImageIOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytedance.FastImageIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastImageIOS.app/FastImageIOS";
+			};
+			name = Debug;
+		};
+		2B3325A5253615770049E71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85368D0E5828E901BEB3207E /* Pods-FastImageIOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RRLD9CW7ZZ;
+				INFOPLIST_FILE = FastImageIOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytedance.FastImageIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastImageIOS.app/FastImageIOS";
+			};
+			name = Release;
+		};
+		2B3325A7253615770049E71E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RRLD9CW7ZZ;
+				INFOPLIST_FILE = FastImageIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytedance.FastImageIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FastImageIOS;
+			};
+			name = Debug;
+		};
+		2B3325A8253615770049E71E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RRLD9CW7ZZ;
+				INFOPLIST_FILE = FastImageIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytedance.FastImageIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FastImageIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B33256C253615760049E71E /* Build configuration list for PBXProject "FastImageIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B33259E253615770049E71E /* Debug */,
+				2B33259F253615770049E71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B3325A0253615770049E71E /* Build configuration list for PBXNativeTarget "FastImageIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B3325A1253615770049E71E /* Debug */,
+				2B3325A2253615770049E71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B3325A3253615770049E71E /* Build configuration list for PBXNativeTarget "FastImageIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B3325A4253615770049E71E /* Debug */,
+				2B3325A5253615770049E71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B3325A6253615770049E71E /* Build configuration list for PBXNativeTarget "FastImageIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B3325A7253615770049E71E /* Debug */,
+				2B3325A8253615770049E71E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B332569253615760049E71E /* Project object */;
+}
